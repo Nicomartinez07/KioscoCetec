@@ -5,7 +5,6 @@ CREATE TABLE Usuario (
     Curso VARCHAR(50) NOT NULL,
     Direccion VARCHAR(50),
     Num_direccion INT,
-    FOREIGN KEY () REFERENCES ()
 );
 
 CREATE TABLE Roles_Usuario (
