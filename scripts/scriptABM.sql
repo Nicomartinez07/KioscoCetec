@@ -167,40 +167,8 @@ VALUES ('Bebidas'),
        ('Caramelos'),
        ('Chicles'),
        ('Snacks');
-/* ------------------------------------------------------------------------------ */
-=======
 
-/* Facturas------------------------------------------------------------------------------ */
->>>>>>> d67a3b3a27dd07c4be474109ada38bc9403711e4
-
-INSERT INTO Facturas (Id_usuario, Id_producto, Fechahora, Id_reserva, Id_MDP, Total)
-VALUES (Id_usuario, Id_producto, Fechahora, Id_reserva, Id_MDP, Total);
-
-UPDATE Facturas
-SET X
-WHERE x = ?;
-
-DELETE FROM Facturas
-WHERE x = ?;
-
-/* MetodoDePago------------------------------------------------------------------------------ */
-
-INSERT INTO MetodoDePago (Nombre)
-VALUES ('Nombre');
-
-UPDATE MetodoDePago
-SET X
-WHERE x = ?;
-
-DELETE FROM MetodoDePago
-WHERE x = ?;
-
-<<<<<<< HEAD
-
-/* ------------------------------------------------------------------------------ */
-=======
 /* Tesoreria------------------------------------------------------------------------------ */
->>>>>>> d67a3b3a27dd07c4be474109ada38bc9403711e4
 
 INSERT INTO Tesoreria (Fecha, Monto, Id_Estado, Descripcion)
 VALUES (Fecha, Monto, Id_Estado, Descripcion);
