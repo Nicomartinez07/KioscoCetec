@@ -80,7 +80,16 @@ WHERE x = ?;
 DELETE FROM Marcas
 WHERE x = ?;
 
+<<<<<<< HEAD
 /* Productos------------------------------------------------------------------------------ */
+=======
+
+INSERT INTO Marcas (Nombre)
+VALUES ("Oreo"),("Don Satur"),("Coca Cola"),("Sprite"),("Pitusas"),("Aquarius"),("Guaymallen"),("Aguila"),("Trio"),("Pepitos");
+
+
+/* ------------------------------------------------------------------------------ */
+>>>>>>> 66033eb2cf8e9cb8b4162b18117d3f6ca63ad79d
 
 INSERT INTO Productos (Id_marca, Id_categoria, Nombre, Img, Precio_compra, Precio_venta, Stock, Cantidad_Gramos)
 VALUES (Id_marca, Id_categoria, 'Nombre', 'linkImg', Precio_compra, Precio_venta, Stock, Cantidad_Gramos);
@@ -93,7 +102,23 @@ WHERE x = ?;
 DELETE FROM Productos
 WHERE x = ?;
 
+<<<<<<< HEAD
 /* Reserva------------------------------------------------------------------------------ */
+=======
+INSERT INTO Productos (Id_marca, Id_categoria, Nombre, Img, Precio_compra, Precio_venta, Stock, Cantidad_Gramos)
+VALUES (1, 4, 'Alfajor Oreo', 'linkImg', 800, 1000, 5, 50 ),
+(2, 3, 'Galletitas Don Satur', 'linkImg', 600, 800, 5, 100),
+(3, 1, 'Gaseosa Coca Cola', 'linkImg', 800, 1000, 5, 500),
+(4, 1, 'Gaseosa Sprite', 'linkImg', 800, 1000, 2, 500),
+(5, 3, 'Galletitas Pitusas', 'linkImg', 600,800, 5, 200),
+(6, 1, 'Gaseosa Aquarius', 'linkImg', 800, 1000, 7, 500),
+(7, 4, 'Alfajor Guaymallen', 'linkImg', 300,500, 9, 50),
+(8, 4, 'Alfajor Aguila', 'linkImg', 800, 1000, 6, 50),
+(9, 3, 'Galletitas Pepas Trio', 'linkImg',500 , 700, 4, 200),
+(10, 3, 'Galletitas Pepitos', 'linkImg', 1000, 1200, 4, 100);
+
+/* ------------------------------------------------------------------------------ */
+>>>>>>> 66033eb2cf8e9cb8b4162b18117d3f6ca63ad79d
 
 INSERT INTO Reserva (Id_usuario, Id_producto, Monto)
 VALUES (Id_usuario, Id_producto, Monto);
@@ -105,7 +130,23 @@ WHERE x = ?;
 DELETE FROM Reserva
 WHERE x = ?;
 
+<<<<<<< HEAD
 /* Categorias------------------------------------------------------------------------------ */
+=======
+INSERT INTO Reserva (Id_usuario, Id_producto, Monto)
+VALUES 
+(12, 1, 1000),
+(13, 2, 800),
+(14, 3, 1000),
+(15, 4, 1000),
+(16, 5, 800),
+(17, 6, 1000),
+(18, 7, 500),
+(19, 8, 1000),
+(20, 9, 700),
+(21, 10, 1200);
+/* ------------------------------------------------------------------------------ */
+>>>>>>> 66033eb2cf8e9cb8b4162b18117d3f6ca63ad79d
 
 INSERT INTO Categorias (Nombre)
 VALUES ('Nombre');
