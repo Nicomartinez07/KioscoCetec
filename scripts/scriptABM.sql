@@ -79,7 +79,14 @@ WHERE x = ?;
 DELETE FROM Categorias
 WHERE x = ?;
 
-
+INSERT INTO Categorias (Nombre)
+VALUES ('Bebidas'),
+	   ('Chupetines'),
+       ('Galletitas'),
+       ('Alfajores'),
+       ('Caramelos'),
+       ('Chicles'),
+       ('Snacks');
 /* ------------------------------------------------------------------------------ */
 
 INSERT INTO Facturas (Id_usuario, Id_producto, Fechahora, Id_reserva, Id_MDP, Total)
@@ -103,6 +110,7 @@ WHERE x = ?;
 
 DELETE FROM MetodoDePago
 WHERE x = ?;
+
 
 /* ------------------------------------------------------------------------------ */
 
