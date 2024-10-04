@@ -5,61 +5,61 @@ INSERT INTO Categorias (Nombre)
 VALUES ('Golosinas');
 
 INSERT INTO Productos (Id_marca, Id_categoria, Nombre, Img, Precio_compra, Precio_venta, Stock, Cantidad_Gramos)
-VALUES /*Galletitas:*/  (3, x, Pepas trio, link, Precio_compra, Precio_venta, 1, gramos),
-                        (3, x, Mini toddy, link, Precio_compra, Precio_venta, 1, gramos),
-                        (3, x, Pepitos, link, Precio_compra, X, Precio_venta, gramos),
-                        (3, x, Don Satur Saladas, link, Precio_compra, Precio_venta, 1, gramos),
-                        (3, x, Don Satur Dulces, link, Precio_compra, Precio_venta, 1, gramos),
-                        (3, x, Pitusas, link, 500, 800, 1, gramos),
-                        (3, x, Duquesa, link, 500, X, 1, gramos),
-                        (3, x, Melba, link, 500, X, 1, gramos),
-                        (3, x, Oreos, link, Precio_compra, Precio_venta, 1, gramos),
-                        (3, x, Bizcochitos Jorjito, link, Precio_compra, Precio_venta, 1, gramos),
+VALUES /*Galletitas:*/  (3, x, Pepas trio, link, Precio_compra, 700, 1, 200),
+                        (3, x, Mini toddy, link, Precio_compra, 600, 1, 50),
+                        (3, x, Pepitos, link, Precio_compra, 1200, 1, 119),
+                        (3, x, Don Satur Saladas, link, Precio_compra, 800, 1, 200),
+                        (3, x, Don Satur Dulces, link, Precio_compra, 800, 1, 200),
+                        (3, x, Pitusas, link, 500, 800, 1, 160),
+                        (3, x, Duquesa, link, 500, 800, 1, 115),
+                        (3, x, Melba, link, 500, 800, 1, 115),
+                        (3, x, Oreos, link, Precio_compra, 1200, 1, 117),
+                        (3, x, Bizcochitos Jorjito, link, Precio_compra, 800, 1, 200),
 
                         /*Bebidas: */
 
-                        (1, x, Aquarius, link, Precio_compra, Precio_venta, 1, gramos),
-                        (1, x, Fanta, link, Precio_compra, Precio_venta, 1, gramos),
-                        (1, x, Sprite, link, Precio_compra, Precio_venta, 1, gramos),
-                        (1, x, Seven Up, link, Precio_compra, Precio_venta, 1, gramos),
-                        (1, x, Coca Cola, link, Precio_compra, Precio_venta, 1, gramos),
-                        (1, x, Bagio, link, Precio_compra, Precio_venta, 1, gramos),
+                        (1, x, Aquarius, link, Precio_compra, 1000, 1, 500),
+                        (1, x, Fanta, link, Precio_compra, 1000, 1, 500),
+                        (1, x, Sprite, link, Precio_compra, 1000, 1, 500),
+                        (1, x, Seven Up, link, Precio_compra, 1000, 1, 500),
+                        (1, x, Coca Cola, link, Precio_compra, 1000, 1, 500),
+                        (1, x, Bagio, link, Precio_compra, 500, 1, 200),
 
 
                         /*Alfajores: */
 
-                        (4, x, Guaymallen triple (3 sabores), x, 300, 500, 1, gramos),
-                        (4, x, Tita, link, Precio_compra, Precio_venta, 1, gramos),
-                        (4, x, Milka (3 sabores), link, Precio_compra, Precio_venta, 1, gramos),
-                        (4, x, Shot, link, Precio_compra, Precio_venta, 1, gramos),
-                        (4, x, Oreo, link, Precio_compra, Precio_venta, 1, gramos),
-                        (4, x, Rasta (blanco y negro), x, 800, 1200, 1, x),
+                        (4, x, Guaymallen triple (3 sabores), x, 300, 500, 1, 70),
+                        (4, x, Tita, link, Precio_compra, 500, 1, 36),
+                        (4, x, Milka (3 sabores), link, Precio_compra, 1000, 1, 70),
+                        (4, x, Shot, link, Precio_compra, 1000, 1, 60),
+                        (4, x, Oreo, link, Precio_compra, 1000, 1, 61),
+                        (4, x, Rasta (blanco y negro), x, 800, 1200, 1, 70),
 
 
                         /*Snacks */
 
-                        (7, x, Nikitos 65g, link, Precio_compra, Precio_venta, 1, gramos),
-                        (7, x, Saladix, link, Precio_compra, Precio_venta, 1, gramos),
-                        (7, x, Club Social, link, Precio_compra, Precio_venta, 1, gramos),
-                        (7, x, Papas Quento, link, Precio_compra, Precio_venta, 1, gramos),
+                        (7, x, Nikitos 65g, link, Precio_compra, 1000, 1, 70),
+                        (7, x, Saladix, link, Precio_compra, 600, 1, 30),
+                        (7, x, Club Social, link, Precio_compra, 400, 1, 24),
+                        (7, x, Papas Quento, link, Precio_compra, 1600, 1, 90),
 
                         /*Golosinas:*/
 
-                        (8, x, Bull dog, link, Precio_compra, Precio_venta, 1, gramos),
-                        (8, x, Beldent, link, Precio_compra, Precio_venta, 1, gramos),
-                        (8, x, Rhodesia, link, Precio_compra, Precio_venta, 1, gramos),
-                        (8, x, Chupetines c/chicle, link, Precio_compra, Precio_venta, 1, gramos),
-                        (8, x, Chupetines s/chicle, link, Precio_compra, Precio_venta, 1, gramos),
-                        (8, x, Pipas, link, Precio_compra, Precio_venta, 1, gramos),
-                        (8, x, Cubanitos, link, Precio_compra, Precio_venta, 1, gramos),
-                        (8, x, Hamlet, link, Precio_compra, Precio_venta, 1, gramos),
-                        (8, x, Sapito, link, Precio_compra, Precio_venta, 1, gramos),
-                        (8, x, Palitos de la Selva (5x200), link, Precio_compra, Precio_venta, 1, gramos),
-                        (8, x, Tic Tacs, link, Precio_compra, Precio_venta, 1, gramos),
-                        (8, x, Flow Cereal Granola semillas, link, Precio_compra, Precio_venta, 1, gramos),
-                        (8, x, Flow Cereal Yogur y chips choco, link, Precio_compra, Precio_venta, 1, gramos),
-                        (8, x, Bubbaloo Tutti Frutti, link, Precio_compra, Precio_venta, 1, gramos),
-                        (8, x, Mantecol 26gr, link, Precio_compra, Precio_venta, 1, gramos);
+                        (8, x, Bull dog, link, Precio_compra, 600, 1, 30),
+                        (8, x, Beldent, link, Precio_compra, 500, 1, 10),
+                        (8, x, Rhodesia, link, Precio_compra, 500, 1, 22),
+                        (8, x, Chupetines c/chicle, link, Precio_compra, 200, 1, 5),
+                        (8, x, Chupetines s/chicle, link, Precio_compra, 100, 1, 5),
+                        (8, x, Pipas, link, Precio_compra, 300, 1, 18),
+                        (8, x, Cubanitos, link, Precio_compra, 100, 1, 5),
+                        (8, x, Hamlet, link, Precio_compra, 500, 1, 43),
+                        (8, x, Sapito, link, Precio_compra, 200, 1, 10),
+                        (8, x, Palitos de la Selva (5x200), link, Precio_compra, 200, 1, 5),
+                        (8, x, Tic Tacs, link, Precio_compra, 600, 1, 16),
+                        (8, x, Flow Cereal Granola semillas, link, Precio_compra, 500, 1, 23),
+                        (8, x, Flow Cereal Yogur y chips choco, link, Precio_compra, 500, 1, 23),
+                        (8, x, Bubbaloo Tutti Frutti, link, Precio_compra, 200, 1, 5),
+                        (8, x, Mantecol, link, Precio_compra, 600, 1, 26);
 
 
 
